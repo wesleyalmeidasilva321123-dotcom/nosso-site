@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#A7C7E7" />
+
+  <!-- SEO -->
+  <title>Wesley & Natyele — Nossa História de Amor</title>
+  <meta name="description" content="A história de amor de Wesley e Natyele — cada capítulo escrito com amor, cumplicidade e muita emoção." />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Wesley & Natyele — Nossa História de Amor" />
+  <meta property="og:description" content="Cada capítulo da nossa história nos trouxe até aqui." />
+  <meta property="og:image" content="images/foto-principal.jpg" />
+  <meta property="og:url" content="" />
+
+  <!-- Favicon placeholder -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>❤️</text></svg>" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600&family=Dancing+Script:wght@500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════ -->
+  <!-- NAVIGATION                                  -->
+  <!-- ═══════════════════════════════════════════ -->
+  <header class="nav-header" role="banner">
+    <nav class="nav" aria-label="Menu principal">
+      <a href="#inicio" class="nav-logo" aria-label="Início">W & N</a>
+
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-menu" id="nav-menu" role="list">
+        <li><a href="#inicio" class="nav-link" data-section="inicio">Início</a></li>
+        <li><a href="#historia" class="nav-link" data-section="historia">Nossa História</a></li>
+        <li><a href="#galeria" class="nav-link" data-section="galeria">Galeria</a></li>
+        <li><a href="#momentos" class="nav-link" data-section="momentos">Momentos</a></li>
+        <li><a href="#contador" class="nav-link" data-section="contador">Contador</a></li>
+        <li><a href="#carta" class="nav-link" data-section="carta">Carta</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- SECTION 1 — HERO                           -->
+    <!-- ═══════════════════════════════════════════ -->
+    <section id="inicio" class="hero" aria-label="Abertura">
+      <div class="hero-bg" aria-hidden="true">
+        <!-- Substitua pelo caminho da foto principal: images/foto-principal.jpg -->
+        <img
+          src="images/foto-principal.jpg"
+          alt="Wesley e Natyele juntos"
+          class="hero-img"
+          loading="eager"
+        />
+        <div class="hero-overlay"></div>
+        <div class="hero-grain" aria-hidden="true"></div>
+      </div>
+
+      <div class="hero-content">
+        <p class="hero-eyebrow animate-fade-up">Uma história de amor</p>
+        <h1 class="hero-title animate-fade-up delay-1">Wesley <span class="hero-amp">&amp;</span> Natyele</h1>
+        <p class="hero-quote animate-fade-up delay-2">
+          "Cada capítulo da nossa história<br />nos trouxe até aqui."
+        </p>
+        <a href="#historia" class="btn btn-primary animate-fade-up delay-3">
+          Conheça nossa história
+        </a>
+      </div>
+
+      <div class="hero-scroll" aria-hidden="true">
+        <span class="hero-scroll-line"></span>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- SECTION 2 — NOSSA HISTÓRIA (TIMELINE)      -->
+    <!-- ═══════════════════════════════════════════ -->
+    <section id="historia" class="section timeline-section" aria-labelledby="historia-title">
+      <div class="container">
+        <header class="section-header">
+          <p class="section-eyebrow animate-fade-up">Nossa trajetória</p>
+          <h2 id="historia-title" class="section-title animate-fade-up delay-1">Nossa História</h2>
+          <p class="section-subtitle animate-fade-up delay-2">Cada momento vivido se tornou parte de quem somos hoje.</p>
+        </header>
+
+        <ol class="timeline" aria-label="Linha do tempo do casal">
+
+          <!-- Evento 1 -->
+          <li class="timeline-item animate-fade-left">
+            <div class="timeline-image">
+              <!-- Substitua por: images/historia-01.jpg -->
+              <img src="images/historia-01.jpg" alt="O momento em que nos conhecemos" loading="lazy" />
+            </div>
+            <div class="timeline-connector" aria-hidden="true">
+              <div class="timeline-dot"></div>
+            </div>
+            <div class="timeline-content">
+              <time class="timeline-date" datetime="2022-02-09">9 de fevereiro de 2022</time>
+              <h3 class="timeline-title">Quando nos conhecemos</h3>
+              <p class="timeline-desc">Era o primeiro dia de aula, e ali, entre tantos rostos novos, dois olhares se cruzaram sem saber o que estava por vir. Começamos como amigos, sem pressa, sem esperar nada além de uma boa amizade. Mas o tempo foi tecendo algo maior, e entre o meio e o fim de 2023, percebemos que aquilo que sentíamos já não cabia mais na palavra "amizade". Foi aí que tudo começou, de verdade.</p>
+            </div>
+          </li>
+
+          <!-- Evento 2 -->
+          <li class="timeline-item timeline-item--reverse animate-fade-right">
+            <div class="timeline-image">
+              <!-- Substitua por: images/historia-02.jpg -->
+              <img src="images/historia-02.jpg" alt="Nosso primeiro encontro" loading="lazy" />
+            </div>
+            <div class="timeline-connector" aria-hidden="true">
+              <div class="timeline-dot"></div>
+            </div>
+            <div class="timeline-content">
+              <time class="timeline-date" datetime="2024-05-25">25 de maio de 2024</time>
+              <h3 class="timeline-title">Primeiro Encontro</h3>
+              <p class="timeline-desc">Em uma sorveteria, entre risadas e um sorvete derretendo aos poucos, vivemos nosso primeiro encontro de verdade. Foi simples, foi doce, e foi exatamente como devia ser — o início de tudo o que ainda estava por vir.</p>
+            </div>
+          </li>
+
+          <!-- Evento 3 -->
+          <li class="timeline-item animate-fade-left">
+            <div class="timeline-image">
+              <!-- Substitua por: images/historia-03.jpg -->
+              <img src="images/historia-03.jpg" alt="Pedido de namoro" loading="lazy" />
+            </div>
+            <div class="timeline-connector" aria-hidden="true">
+              <div class="timeline-dot"></div>
+            </div>
+            <div class="timeline-content">
+              <time class="timeline-date" datetime="2024-06-15">15 de junho de 2024</time>
+              <h3 class="timeline-title">Pedido de Namoro</h3>
+              
+              <p class="timeline-desc">
+  O que parecia ser apenas a comemoração dos 18 anos de Wesley acabou se tornando um dos momentos mais marcantes de suas vidas. Cercados pela família e por pessoas especiais, Natyele encontrou coragem para fazer a pergunta que mudaria tudo. Em meio à emoção, aos sorrisos e aos olhos cheios de lágrimas, ela o pediu em namoro. Sem hesitar, Wesley respondeu "sim", dando início a uma história construída com amor, companheirismo e incontáveis memórias que ainda estavam por vir.
+</p>
+            </div>
+          </li>
+
+          <!-- Evento 4 -->
+          <li class="timeline-item timeline-item--reverse animate-fade-right">
+            <div class="timeline-image">
+              <!-- Substitua por: images/historia-04.jpg -->
+              <img src="images/historia-04.jpg" alt="Primeira viagem juntos" loading="lazy" />
+            </div>
+            <div class="timeline-connector" aria-hidden="true">
+              <div class="timeline-dot"></div>
+            </div>
+            <div class="timeline-content">
+              <time class="timeline-date" datetime="2024-08-01">2024</time>
+              <h3 class="timeline-title">Primeira Viagem</h3>
+              <p class="timeline-desc">Em uma excursão da escola, conhecemos São Paulo e visitamos juntos um museu de artes. Entre obras e descobertas, vivemos nossa primeira viagem como casal — uma experiência cheia de curiosidade, troca e novas memórias para guardar.</p>
+            </div>
+          </li>
+
+          <!-- Evento 5 -->
+          <li class="timeline-item animate-fade-left">
+            <div class="timeline-image">
+              <!-- Substitua por: images/historia-05.jpg -->
+              <img src="images/historia-05.jpg" alt="Pedido de casamento" loading="lazy" />
+            </div>
+            <div class="timeline-connector" aria-hidden="true">
+              <div class="timeline-dot"></div>
+            </div>
+            <div class="timeline-content">
+              <time class="timeline-date" datetime="2025-09-14">14 de setembro de 2025</time>
+              <h3 class="timeline-title">Pedido de Casamento</h3>
+              <p class="timeline-desc">Na praia de Santos, com o som das ondas como trilha sonora e o céu pintado pelo entardecer, Wesley ajoelhou-se diante de Natyele e fez a pergunta que carregava no peito. Entre lágrimas e um sorriso enorme, ela disse sim — e ali, à beira-mar, selamos o compromisso de viver tudo o que ainda está por vir, um ao lado do outro.</p>
+            </div>
+          </li>
+
+        </ol>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- SECTION 3 — GALERIA                        -->
+    <!-- ═══════════════════════════════════════════ -->
+    <section id="galeria" class="section gallery-section" aria-labelledby="galeria-title">
+      <div class="container">
+        <header class="section-header">
+          <p class="section-eyebrow animate-fade-up">Memórias em imagens</p>
+          <h2 id="galeria-title" class="section-title animate-fade-up delay-1">Galeria</h2>
+          <p class="section-subtitle animate-fade-up delay-2">Cada foto carrega uma emoção, um sorriso, um pedaço de nós.</p>
+        </header>
+
+        <div class="gallery-grid" role="list" aria-label="Galeria de fotos">
+
+          <!-- Substitua cada src por: images/galeria-01.jpg, 02.jpg, etc. -->
+          <button class="gallery-item animate-fade-up" role="listitem" aria-label="Ver foto 1 em tamanho maior" data-index="0">
+            <img src="images/galeria-01.jpg" alt="Momento especial 1" loading="lazy" />
+            <div class="gallery-item-overlay" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/><path d="M11 8v6M8 11h6"/></svg>
+            </div>
+          </button>
+
+          <button class="gallery-item animate-fade-up delay-1" role="listitem" aria-label="Ver foto 2 em tamanho maior" data-index="1">
+            <img src="images/galeria-02.jpg" alt="Momento especial 2" loading="lazy" />
+            <div class="gallery-item-overlay" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/><path d="M11 8v6M8 11h6"/></svg>
+            </div>
+          </button>
+
+          <button class="gallery-item gallery-item--tall animate-fade-up delay-2" role="listitem" aria-label="Ver foto 3 em tamanho maior" data-index="2">
+            <img src="images/galeria-03.jpg" alt="Momento especial 3" loading="lazy" />
+            <div class="gallery-item-overlay" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/><path d="M11 8v6M8 11h6"/></svg>
+            </div>
+          </button>
+
+          <button class="gallery-item animate-fade-up" role="listitem" aria-label="Ver foto 4 em tamanho maior" data-index="3">
+            <img src="images/galeria-04.jpg" alt="Momento especial 4" loading="lazy" />
+            <div class="gallery-item-overlay" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/><path d="M11 8v6M8 11h6"/></svg>
+            </div>
+          </button>
+
+          <button class="gallery-item gallery-item--wide animate-fade-up delay-1" role="listitem" aria-label="Ver foto 5 em tamanho maior" data-index="4">
+            <img src="images/galeria-05.jpg" alt="Momento especial 5" loading="lazy" />
+            <div class="gallery-item-overlay" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/><path d="M11 8v6M8 11h6"/></svg>
+            </div>
+          </button>
+
+          <button class="gallery-item animate-fade-up delay-2" role="listitem" aria-label="Ver foto 6 em tamanho maior" data-index="5">
+            <img src="images/galeria-06.jpg" alt="Momento especial 6" loading="lazy" />
+            <div class="gallery-item-overlay" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/><path d="M11 8v6M8 11h6"/></svg>
+            </div>
+          </button>
+
+        </div>
+      </div>
+
+      <!-- Modal da Galeria -->
+      <div class="gallery-modal" id="gallery-modal" role="dialog" aria-modal="true" aria-label="Visualização de foto" hidden>
+        <button class="modal-close" aria-label="Fechar visualização">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 6 6 18M6 6l12 12"/></svg>
+        </button>
+        <button class="modal-prev" aria-label="Foto anterior">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="m15 18-6-6 6-6"/></svg>
+        </button>
+        <div class="modal-content">
+          <img src="" alt="" class="modal-img" id="modal-img" />
+        </div>
+        <button class="modal-next" aria-label="Próxima foto">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="m9 18 6-6-6-6"/></svg>
+        </button>
+        <div class="modal-counter" aria-live="polite" id="modal-counter"></div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- SECTION 4 — MOMENTOS ESPECIAIS             -->
+    <!-- ═══════════════════════════════════════════ -->
+    <section id="momentos" class="section moments-section" aria-labelledby="momentos-title">
+      <div class="container">
+        <header class="section-header">
+          <p class="section-eyebrow animate-fade-up">Pequenos grandes instantes</p>
+          <h2 id="momentos-title" class="section-title animate-fade-up delay-1">Momentos Especiais</h2>
+          <p class="section-subtitle animate-fade-up delay-2">Os instantes que ficam para sempre no coração.</p>
+        </header>
+
+        <div class="moments-grid">
+
+          <article class="moment-card animate-fade-up">
+            <!-- Substitua por: images/momento-01.jpg -->
+            <div class="moment-card-img">
+              <img src="images/momento-01.jpg" alt="Risos à toa" loading="lazy" />
+            </div>
+            <div class="moment-card-body">
+              <span class="moment-card-tag">Felicidade</span>
+              <h3 class="moment-card-title">Risos à toa</h3>
+              <p class="moment-card-desc">As gargalhadas sem motivo são o nosso idioma secreto — a prova de que encontramos em nós mesmos a melhor companhia.</p>
+            </div>
+          </article>
+
+          <article class="moment-card animate-fade-up delay-1">
+            <!-- Substitua por: images/momento-02.jpg -->
+            <div class="moment-card-img">
+              <img src="images/momento-02.jpg" alt="Olhar sem palavras" loading="lazy" />
+            </div>
+            <div class="moment-card-body">
+              <span class="moment-card-tag">Conexão</span>
+              <h3 class="moment-card-title">Olhar sem palavras</h3>
+              <p class="moment-card-desc">Existe uma comunicação que só nós dois entendemos. Um olhar que já diz tudo que as palavras nunca conseguiriam expressar.</p>
+            </div>
+          </article>
+
+          <article class="moment-card animate-fade-up delay-2">
+            <!-- Substitua por: images/momento-03.jpg -->
+            <div class="moment-card-img">
+              <img src="images/momento-03.jpg" alt="Abraço que aquece" loading="lazy" />
+            </div>
+            <div class="moment-card-body">
+              <span class="moment-card-tag">Cumplicidade</span>
+              <h3 class="moment-card-title">Abraço que aquece</h3>
+              <p class="moment-card-desc">No colo um do outro, o mundo para. Em cada abraço, encontramos o lar que não tem endereço — tem nome, tem cheiro, tem sentimento.</p>
+            </div>
+          </article>
+
+          <article class="moment-card animate-fade-up delay-3">
+            <!-- Substitua por: images/momento-04.jpg -->
+            <div class="moment-card-img">
+              <img src="images/momento-04.jpg" alt="Aventuras compartilhadas" loading="lazy" />
+            </div>
+            <div class="moment-card-body">
+              <span class="moment-card-tag">Aventura</span>
+              <h3 class="moment-card-title">Aventuras compartilhadas</h3>
+              <p class="moment-card-desc">Cada novo lugar visitado é uma história escrita a quatro mãos. Porque a melhor aventura é aquela vivida ao lado de quem amamos.</p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- SECTION 5 — CONTADOR DE TEMPO JUNTOS       -->
+    <!-- ═══════════════════════════════════════════ -->
+    <section id="contador" class="section counter-section" aria-labelledby="contador-title">
+      <div class="counter-bg" aria-hidden="true">
+        <!-- Substitua por: images/contador-bg.jpg -->
+        <img src="images/contador-bg.jpg" alt="" loading="lazy" />
+        <div class="counter-overlay"></div>
+      </div>
+
+      <div class="container counter-content">
+        <header class="section-header section-header--light">
+          <p class="section-eyebrow animate-fade-up">Desde o primeiro sim</p>
+          <h2 id="contador-title" class="section-title animate-fade-up delay-1">Juntos há</h2>
+        </header>
+
+        <div class="counter-display animate-fade-up delay-2" aria-live="polite" aria-atomic="true">
+          <div class="counter-unit">
+            <span class="counter-number" id="counter-years">0</span>
+            <span class="counter-label">Anos</span>
+          </div>
+          <div class="counter-sep" aria-hidden="true">·</div>
+          <div class="counter-unit">
+            <span class="counter-number" id="counter-months">0</span>
+            <span class="counter-label">Meses</span>
+          </div>
+          <div class="counter-sep" aria-hidden="true">·</div>
+          <div class="counter-unit">
+            <span class="counter-number" id="counter-days">0</span>
+            <span class="counter-label">Dias</span>
+          </div>
+        </div>
+
+        <p class="counter-phrase animate-fade-up delay-3" id="counter-phrase">
+          Calculando nosso tempo juntos...
+        </p>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- SECTION 6 — CARTA PARA MINHA NOIVA         -->
+    <!-- ═══════════════════════════════════════════ -->
+    <section id="carta" class="section letter-section" aria-labelledby="carta-title">
+      <div class="container">
+        <header class="section-header">
+          <p class="section-eyebrow animate-fade-up">Palavras do coração</p>
+          <h2 id="carta-title" class="section-title animate-fade-up delay-1">Carta para minha Noiva</h2>
+        </header>
+
+        <div class="letter-wrapper animate-fade-up delay-2">
+          <div class="letter-decoration" aria-hidden="true">
+            <svg class="letter-seal" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <circle cx="40" cy="40" r="38" fill="#D4B483" opacity="0.15" stroke="#D4B483" stroke-width="1"/>
+              <circle cx="40" cy="40" r="30" fill="none" stroke="#D4B483" stroke-width="0.75" stroke-dasharray="3 3"/>
+              <text x="40" y="45" text-anchor="middle" font-family="Playfair Display" font-size="18" fill="#D4B483">W❤N</text>
+            </svg>
+          </div>
+
+          <div class="letter-paper">
+            <div class="letter-lines" aria-hidden="true"></div>
+            <div class="letter-text-area">
+              <p class="letter-salutation">Minha Natyele,</p>
+
+              <p class="letter-body">
+  Tudo começou de uma forma simples, sem que nenhum de nós imaginasse o quanto nossas vidas mudariam. Entre corredores da ETEC, intervalos corridos e aulas que pareciam não ter fim, fomos construindo uma amizade que, aos poucos, se transformou em algo muito maior.
+</p>
+
+<p class="letter-body">
+  Atrás do laboratório de elétrica encontramos nosso pequeno refúgio. Enquanto o mundo continuava correndo lá fora, nós criávamos memórias que carregamos até hoje. Foram conversas, risadas, olhares e momentos que pareciam comuns, mas que acabaram se tornando alguns dos mais importantes da minha vida.
+</p>
+
+<p class="letter-body">
+  Com você, até as aulas mais chatas de matemática tinham um motivo para valer a pena. E os sábados sem nenhum acontecimento especial se tornavam os melhores dias simplesmente porque eu podia passar algumas horas ao seu lado. Foi assim que percebi que a felicidade não estava nos grandes eventos, mas nos pequenos momentos compartilhados com a pessoa certa.
+</p>
+
+<p class="letter-body">
+  Então chegou o dia do meu aniversário de 18 anos. Um dia que já seria inesquecível por si só, mas que se tornou um marco na minha vida quando você decidiu escrever um novo capítulo da nossa história e me deu o melhor presente que eu poderia receber: a oportunidade de chamar você de minha namorada.
+</p>
+
+<p class="letter-body">
+  Desde então, colecionamos memórias, superamos desafios, compartilhamos sonhos e aprendemos juntos o verdadeiro significado de companheirismo. Você esteve presente nos meus melhores momentos e também naqueles em que eu mais precisei de apoio. E em cada fase da minha vida, você se tornou uma das razões pelas quais eu continuo seguindo em frente.
+</p>
+
+<p class="letter-body">
+  Você é muito mais do que a mulher que eu amo. Você é minha melhor amiga, minha parceira, meu porto seguro e a pessoa com quem eu quero compartilhar todas as conquistas, todos os planos e todos os dias que ainda estão por vir.
+</p>
+
+<p class="letter-body">
+  Se este site existe, é porque nossa história merece ser celebrada. Cada foto, cada lembrança e cada detalhe aqui representam uma pequena parte de tudo o que construímos juntos. E mesmo que eu passasse a vida inteira tentando explicar o que sinto por você, ainda faltariam palavras.
+</p>
+
+<p class="letter-body">
+  Só existe uma certeza que cresce a cada dia dentro do meu coração: em todas as versões possíveis da minha vida, eu escolheria você. Hoje, amanhã e para sempre.
+</p>
+              <p class="letter-closing">
+                Com todo o meu amor,<br />
+                <span class="letter-signature">Wesley</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- SECTION 7 — CARROSSEL DE DESTAQUE          -->
+    <!-- ═══════════════════════════════════════════ -->
+    <section class="section carousel-section" aria-labelledby="carousel-title">
+      <div class="container">
+        <header class="section-header">
+          <p class="section-eyebrow animate-fade-up">Nossos favoritos</p>
+          <h2 id="carousel-title" class="section-title animate-fade-up delay-1">Galeria de Destaque</h2>
+        </header>
+      </div>
+
+      <div class="carousel-wrapper animate-fade-up delay-2">
+        <div class="carousel" id="carousel" role="region" aria-label="Carrossel de fotos em destaque">
+          <ul class="carousel-track" id="carousel-track">
+            <!-- Substitua cada src por: images/destaque-01.jpg, 02.jpg, etc. -->
+            <li class="carousel-slide" aria-label="Foto de destaque 1 de 5">
+              <img src="images/destaque-01.jpg" alt="Foto de destaque 1" loading="lazy" />
+            </li>
+            <li class="carousel-slide" aria-label="Foto de destaque 2 de 5">
+              <img src="images/destaque-02.jpg" alt="Foto de destaque 2" loading="lazy" />
+            </li>
+            <li class="carousel-slide" aria-label="Foto de destaque 3 de 5">
+              <img src="images/destaque-03.jpg" alt="Foto de destaque 3" loading="lazy" />
+            </li>
+            <li class="carousel-slide" aria-label="Foto de destaque 4 de 5">
+              <img src="images/destaque-04.jpg" alt="Foto de destaque 4" loading="lazy" />
+            </li>
+            <li class="carousel-slide" aria-label="Foto de destaque 5 de 5">
+              <img src="images/destaque-05.jpg" alt="Foto de destaque 5" loading="lazy" />
+            </li>
+          </ul>
+        </div>
+
+        <button class="carousel-btn carousel-btn--prev" id="carousel-prev" aria-label="Foto anterior">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="m15 18-6-6 6-6"/></svg>
+        </button>
+        <button class="carousel-btn carousel-btn--next" id="carousel-next" aria-label="Próxima foto">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="m9 18 6-6-6-6"/></svg>
+        </button>
+
+        <div class="carousel-dots" id="carousel-dots" role="tablist" aria-label="Selecionar foto"></div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ═══════════════════════════════════════════ -->
+  <!-- FOOTER                                     -->
+  <!-- ═══════════════════════════════════════════ -->
+  <footer class="footer" role="contentinfo">
+    <div class="container footer-inner">
+      <p class="footer-logo">W <span>❤</span> N</p>
+      <p class="footer-phrase">Nossa história continua sendo escrita todos os dias ❤️</p>
+      <p class="footer-credit">Feito com amor</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
